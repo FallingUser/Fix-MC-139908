@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "mc-139908_fix",
+  "version": "${version}",
+  "name": "MC-139908 Fix",
+  "description": "Fix MC-139908",
+  "authors": [],
+  "contact": {},
+  "license": "AGPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.FallingUser.mc139908_fix.client.Mc139908_fixClient"
+    ],
+    "main": [
+      "com.github.FallingUser.mc139908_fix.Mc139908_fix"
+    ]
+  },
+  "mixins": [
+    "mc-139908_fix.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=26.1"
+  }
+}
