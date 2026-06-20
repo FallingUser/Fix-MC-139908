@@ -116,7 +116,7 @@ public abstract class MixinEntitySelectorOptions {
                 });
                 parser.setIncludesEntities(false);
             }
-            parser.setHasAdvancements(true);
+            parser.advancementsOption().markParsed();
         };
     }
 
