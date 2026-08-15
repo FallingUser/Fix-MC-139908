@@ -1,6 +1,6 @@
-This mod fix MC-139908
+This mod fix [MC-139908](https://bugs.mojang.com/browse/MC-139908)
 
-MC-139908 is a bug that makes the advancement selector in entity selectors can only be parsed successfully if they are made up of a limited subset of characters, and the subset of characters do not include ":" so that you cannot enter a criteria name with ":" such as "minecraft:the_void" and "minecraft:jungle".
+[MC-139908](https://bugs.mojang.com/browse/MC-139908) is a bug that makes the advancement selector in entity selectors can only be parsed successfully if they are made up of a limited subset of characters, and the subset of characters do not include ":" so that you cannot enter a criteria name with ":" such as "minecraft:the_void" and "minecraft:jungle".
 
 **Effect**
 
